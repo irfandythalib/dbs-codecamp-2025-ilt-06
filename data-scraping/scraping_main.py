@@ -4,6 +4,7 @@ import requests
  
 from bs4 import BeautifulSoup
 from transform import transform_data, transform_to_DataFrame  # Mengimpor fungsi dari modul transform
+from load import export_to_csv # Mengimpor fungsi dari modul load
  
 HEADERS = {
     "User-Agent": (
@@ -80,7 +81,7 @@ def main():
     if all_books_data:
         df = transform_to_DataFrame(all_books_data)   # Mengubah variabel all_books_data menjadi df.
         df = transform_data(df, 20000)   # Mentransformasikan data
-        df.to_csv("products.csv")
+        export_to_csv(df, "product")
     else:
         print("Tidak ada data yang ditemukan.")
  
