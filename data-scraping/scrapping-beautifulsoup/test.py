@@ -9,7 +9,9 @@ if response.status_code == 200:
     # Mencari semua elemen <h3>
     # titles = soup.find_all("h3")
     # for idx, title in enumerate(titles, start=1):
-    #     print(f"{idx}. {title.get_text()}")
+    #     print(title.get_text())
+    #     print()
+        # print(f"{idx}. {title.get_text()}")
 
     # CSS Selecter <p> di dalam .content
     paragraphs = soup.select(".product_pod > h3 > a")

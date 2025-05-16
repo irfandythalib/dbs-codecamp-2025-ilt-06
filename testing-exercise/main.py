@@ -1,7 +1,6 @@
 from calculator import get_numbers, addition, subtraction, multiplication, division
 import sys
 
-
 def main():
     while True:
         operations = {

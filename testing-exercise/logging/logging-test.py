@@ -21,5 +21,5 @@ def divide_numbers(a, b):
 
 
 # Contoh penggunaan fungsi
-divide_numbers(10, 2)
+# divide_numbers(10, 2)
 divide_numbers(10, 0)

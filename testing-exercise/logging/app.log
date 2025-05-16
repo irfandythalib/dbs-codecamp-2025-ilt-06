@@ -1,6 +1,6 @@
-2025-05-16 09:05:02,428 - ERROR - terjadi error
-2025-05-16 09:06:11,153 - INFO - Memulai pembagian: 10 / 2
-2025-05-16 09:06:11,153 - INFO - Hasil pembagian: 5.0
-2025-05-16 09:06:11,153 - INFO - Memulai pembagian: 10 / 0
-2025-05-16 09:06:11,154 - ERROR - Terjadi error: Pembagian dengan nol
-2025-05-16 09:06:11,154 - CRITICAL - Terjadi error: Pembagian dengan nol
+2025-05-16 20:16:49,697 - INFO - Memulai pembagian: 10 / 2
+2025-05-16 20:16:49,700 - INFO - Hasil pembagian: 5.0
+2025-05-16 20:16:49,701 - INFO - Memulai pembagian: 10 / 0
+2025-05-16 20:16:49,702 - ERROR - Terjadi error: Pembagian dengan nol
+2025-05-16 21:16:25,035 - INFO - Memulai pembagian: 10 / 0
+2025-05-16 21:16:25,036 - ERROR - Terjadi error: Pembagian dengan nol

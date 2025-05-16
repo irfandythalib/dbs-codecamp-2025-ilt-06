@@ -9,7 +9,7 @@ def subtract(a, b):
 class TestMathOperations(unittest.TestCase):
 
     def test_add(self):
-        self.assertEqual(add(2, 3), 5)
+        self.assertEqual(add(10, 3), 13)
 
     def test_add_negative(self):
         self.assertEqual(add(-1, -1), -2)
